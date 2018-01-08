@@ -78,7 +78,7 @@ class LanguagePack::Ruby < LanguagePack::Base
       warn_bundler_upgrade
       warn_windows_gemfile_endline
       install_ruby
-      install_jvm
+      install_jvm(true)
       install_binaries
       add_dep_dir_to_path
       setup_export
